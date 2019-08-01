@@ -1,0 +1,30 @@
+@import "/variables.scss";
+
+.bg-primary {
+    background-color:$navbar-color;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:$navlink-color;
+}
+
+.jumbotron {
+    background-color: $jumbotron;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $signin_signup_btn;
+    border-color: $signin_signup_btn_border;
+}
+
+.navbar-light .navbar-brand {
+    color:$navlink-color;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: $signin_signup_btn;
+    border-color: $signin_signup_btn;
+}
+
